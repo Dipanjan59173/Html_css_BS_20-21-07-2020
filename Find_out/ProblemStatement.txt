@@ -1,0 +1,5 @@
+1.Difference between rem and em size units?
+2. What is z-index in CSS?
+3. What is jumbotron fluid ?
+4. Explain display-3 class property?
+5. With the help of example , Display nav, nav-bar, margin, padding in a Bootstrap file.

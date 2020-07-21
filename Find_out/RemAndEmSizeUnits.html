@@ -1,0 +1,64 @@
+<html>
+
+<head>
+    <style>
+        .heading{
+            font-size: 50px;
+            text-align: center;
+        }
+        .parent_rem {
+            font-size: 10px;
+        }
+
+        .child_rem {
+            font-size: 2rem;
+        }
+
+        .parent_em {
+            font-size: 10px;
+        }
+
+        .child_em {
+            font-size: 2em;
+        }
+        .main{
+            background-color: mediumspringgreen;
+        }
+    </style>
+</head>
+
+<body class="main">
+    <h3 class="heading">Difference between rem and em size units...!!!</h3>
+
+    <div class="parent_em">
+        Line A : written in 20px
+        <div class="child_em">
+            Line B: Child of A (2 em)
+            <div class="child_em">
+                Line C:Child of B(2 em)
+                <div class="child_em">
+                    Line D:Child of C(2 em)
+                </div>
+            </div>
+        </div>
+    </div>
+    <br />
+    <br />
+    <br />
+    <br />
+    <div class="parent_rem">
+        Line A : written in 20px
+        <div class="child_rem">
+            Line B: Child of A (2 rem)
+            <div class="child_rem">
+                Line C:Child of B (2 rem)
+                <div class="child_rem">
+                    Line D:Child of C(2 rem)
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
